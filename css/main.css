@@ -1,0 +1,143 @@
+:root {
+   --purple-color : #4d397b;
+   --main-transition: 0.3s;
+}
+body {
+    background-color: #fff8f0;
+    font-family: "League Spartan", sans-serif;
+}
+/* Start Home */
+.home .container .information  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.home .container .information div {
+    display: flex;
+}
+.home .container .information div i {
+    position: relative;
+    top: 6px;
+    right: 7px;
+}
+.home .container .information div span {
+    margin-right: 5px;
+    font-weight: bold;
+    /* font-size: 22px; */
+}
+.home .container .text {
+    padding-top: 20px;
+}
+.home .container .text p:first-child {
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+.home .container .text  h1 {
+    font-weight: bold;
+}
+.home .container .text  h1 span {
+    font-weight: 500;
+}
+.home .container .text p:nth-child(3) {
+    padding-top: 15px;
+    color: var(--purple-color);
+    font-weight: 500;
+    font-size: 18px;
+}
+.home .container .contactus {
+    margin: 30px 0;
+}
+.home .container .contactus a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: var(--main-transition);
+}
+.home .container .contactus a:hover {
+     color: var(--purple-color);
+     background-color: transparent;
+     border: 1px solid var(--purple-color);
+}
+/* End Home */ 
+/* Start skills */
+.pfirst {
+    color: #1aacff;
+}
+p.main_p {
+    max-width: 700px;
+    margin: auto;
+    color: var(--purple-color);
+    font-weight: bold;
+}
+.skills .container .row .card {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+}
+.skills .container .row .card .card-title {
+    font-size: 18px;
+}
+.skills .container .row .card p {
+    max-width: 300px;
+    margin: auto;
+    color: var(--purple-color);
+    font-weight: 500;
+}
+/* End skills */
+/* Start Projects */
+.projects h5 {
+    font-weight: bold;
+    color: #291854;
+}
+.projects .link a {
+    color: #6A87A3;
+}
+.projects .link {
+    position: relative;
+    left: -13px;
+}
+.projects .pn {
+    background-color: #19ACFF;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 18px;
+}
+@media (max-width: 992px) {
+    .projects .pn {
+        margin-bottom: 10px;
+    }  
+}
+/* End Projects */
+/* Start Contactus */
+.contactus  p {
+   font-size: 20px;
+   font-weight: bold;
+}
+.contactus  span {
+    color: var(--purple-color);
+}
+.contactus .social i {
+    font-size: 23px;
+    margin:0 6px;
+    color: var(--purple-color);
+    transition: 0.3s;
+}
+.contactus .social .pfirst {
+    font-size: 25px;
+}
+.contactus .social i:hover {
+    color: #4d00ff;
+}
+/* End Contactus */
